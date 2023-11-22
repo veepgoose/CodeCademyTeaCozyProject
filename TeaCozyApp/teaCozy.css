@@ -1,3 +1,79 @@
 body {
     background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9; 
+}
+
+header {
+    display: flex;
+    /* position: fixed; */   /*Need to come back and sort this out! Fixing the header messes up the alignment! */
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+
+}
+
+header img {
+    height: 50px;
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+    text-align: right;   
+}
+
+.nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 10px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: center;
+    z-index: 1;
+    width: 1200px;
+}
+
+
+
+
+
+.teaGallery img {
+    height: 200px;
+    width: 300px;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.locations img {
+    height: auto;
+    width: 1200px;
 }
