@@ -61,12 +61,29 @@ header img {
 }
 
 
-
+.gallery-container {
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    left: 440px;
+    position: relative;
+  
+  
+    
+   
+    
+}
 
 
 .teaGallery img {
     height: 200px;
     width: 300px;
+    margin: 10px;
+    
+   
 }
 
 h2, h4 {
